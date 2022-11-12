@@ -3,10 +3,22 @@
 
 int main()
 {
-    char word[10000];
-    fgets(word, sizeof(word), stdin);
-    int length = strlen(word);
-    printf("%d", length - 1);
+    int n;
+    scanf("%d", &n);
+    
 
-    return 0;
+    for (int i = 1; i <= n; i++){
+
+        char word[10000];
+        scanf("%s",word);
+        int length = strlen(word);
+
+        if(length > 10){
+            printf("%c%d%c\n", word[0], length - 2, word[length - 1]);
+        }else{
+            puts(word);
+        }
+    }
+
+        return 0;
 }
