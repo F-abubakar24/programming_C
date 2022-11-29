@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int point_to_point(int n);
 
 int main()
@@ -20,7 +19,8 @@ int point_to_point(int n)
     }
     else if (n < 0)
     {
-        for (int i = n; i < n; i++)
+        int x = n - (n * 2);
+        for (int i = n; i <= x; i++)
         {
             printf("%d ", i);
         }
