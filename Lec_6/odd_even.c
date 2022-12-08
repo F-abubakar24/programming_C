@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
     int a, i, x, y, z;
     scanf("%d%d", &x, &y);
     a = x / 2;
@@ -19,5 +20,6 @@ int main(){
             z = i * 2;
         }
     }
+}
     // printf("%d", z);
 
