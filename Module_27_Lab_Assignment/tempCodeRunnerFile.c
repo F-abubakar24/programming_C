@@ -1,0 +1,2 @@
+
+  wornKeyboard(str);
