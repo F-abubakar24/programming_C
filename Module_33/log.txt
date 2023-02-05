@@ -1,0 +1,7 @@
+Hello at 12:40 AM
+Hello at 12:00 AM
+Hello at 12:00 AM
+Input file not found at 12:45 AM
+Hello at 12:00 AM
+Input file not found at 12:45 AM
+Input file not found at 12:45 AM
